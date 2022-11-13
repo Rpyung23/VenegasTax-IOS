@@ -11,7 +11,7 @@ import SwiftUI
 struct Venegas_Tax_ServiceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

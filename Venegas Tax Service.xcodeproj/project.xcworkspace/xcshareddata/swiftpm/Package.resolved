@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alertmessage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielkmarks23/AlertMessage.git",
+      "state" : {
+        "revision" : "2b18c14a8420020d869e3efb3fe0dca13a5507b6",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "camera-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rorodriguez116/Camera-SwiftUI.git",
+      "state" : {
+        "revision" : "a83ad04ec213095e14d71491af8b55e7575a7b40",
+        "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "cloudinary_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cloudinary/cloudinary_ios.git",
+      "state" : {
+        "revision" : "43a2d4c8ecc830e666ed4856fd681d51d632c119",
+        "version" : "3.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

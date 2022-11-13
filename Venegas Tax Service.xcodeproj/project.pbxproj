@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010530BD2920AC26001E3F69 /* Cloudinary in Frameworks */ = {isa = PBXBuildFile; productRef = 010530BC2920AC26001E3F69 /* Cloudinary */; };
+		011A20292917139600C46D76 /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A20282917139600C46D76 /* Drawer.swift */; };
+		011A202B291713A000C46D76 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A202A291713A000C46D76 /* Home.swift */; };
+		011A202D291713B200C46D76 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A202C291713B200C46D76 /* MenuButton.swift */; };
+		011A2031291713EF00C46D76 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A2030291713EF00C46D76 /* MenuModel.swift */; };
+		011A20332917142700C46D76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A20322917142700C46D76 /* ContentView.swift */; };
+		011A2037291714F500C46D76 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A2036291714F500C46D76 /* Cart.swift */; };
+		011A203B2917152F00C46D76 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A203A2917152F00C46D76 /* Favourites.swift */; };
+		011A203D2917153D00C46D76 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A203C2917153D00C46D76 /* Orders.swift */; };
+		011A204129171DFA00C46D76 /* ListaGastosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A204029171DFA00C46D76 /* ListaGastosView.swift */; };
+		011A204329172D4200C46D76 /* NewGasto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A204229172D4200C46D76 /* NewGasto.swift */; };
+		011ED578291225C200EE1FFD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ED577291225C200EE1FFD /* RegisterView.swift */; };
+		011ED57A2912324800EE1FFD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ED5792912324800EE1FFD /* LoginView.swift */; };
+		011ED57C291232E700EE1FFD /* RecoveryPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ED57B291232E700EE1FFD /* RecoveryPasswordView.swift */; };
+		013C0F682919DF06005944E4 /* DetalleGastoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C0F672919DF06005944E4 /* DetalleGastoView.swift */; };
+		013CF5412921498100118E77 /* AlertMessage in Frameworks */ = {isa = PBXBuildFile; productRef = 013CF5402921498100118E77 /* AlertMessage */; };
+		013CF5442921627700118E77 /* Camera-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 013CF5432921627700118E77 /* Camera-SwiftUI */; };
+		015E2F53291309A7004B4698 /* ListaCrearGastoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E2F52291309A7004B4698 /* ListaCrearGastoView.swift */; };
+		01915A2F291DBF9C00A72480 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01915A2E291DBF9C00A72480 /* Configuration.swift */; };
 		01F4FD8E2911EFF100A7D1E2 /* Venegas_Tax_ServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FD8D2911EFF100A7D1E2 /* Venegas_Tax_ServiceApp.swift */; };
-		01F4FD902911EFF100A7D1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FD8F2911EFF100A7D1E2 /* ContentView.swift */; };
 		01F4FD922911EFF200A7D1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4FD912911EFF200A7D1E2 /* Assets.xcassets */; };
 		01F4FD952911EFF200A7D1E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4FD942911EFF200A7D1E2 /* Preview Assets.xcassets */; };
 		01F4FD9F2911EFF200A7D1E2 /* Venegas_Tax_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FD9E2911EFF200A7D1E2 /* Venegas_Tax_ServiceTests.swift */; };
 		01F4FDA92911EFF200A7D1E2 /* Venegas_Tax_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FDA82911EFF200A7D1E2 /* Venegas_Tax_ServiceUITests.swift */; };
 		01F4FDAB2911EFF200A7D1E2 /* Venegas_Tax_ServiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FDAA2911EFF200A7D1E2 /* Venegas_Tax_ServiceUITestsLaunchTests.swift */; };
+		01F4FDB82911F66A00A7D1E2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FDB72911F66A00A7D1E2 /* SplashScreenView.swift */; };
+		01FB92C3291DD7F600468A26 /* CategoriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB92C2291DD7F600468A26 /* CategoriaModel.swift */; };
+		01FB92C7291DECDA00468A26 /* GastoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB92C6291DECDA00468A26 /* GastoModel.swift */; };
+		01FB92C9291E04C400468A26 /* Persistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB92C8291E04C400468A26 /* Persistencia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011A20282917139600C46D76 /* Drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		011A202A291713A000C46D76 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		011A202C291713B200C46D76 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		011A2030291713EF00C46D76 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		011A20322917142700C46D76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		011A2036291714F500C46D76 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		011A203A2917152F00C46D76 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		011A203C2917153D00C46D76 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		011A204029171DFA00C46D76 /* ListaGastosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaGastosView.swift; sourceTree = "<group>"; };
+		011A204229172D4200C46D76 /* NewGasto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGasto.swift; sourceTree = "<group>"; };
+		011ED577291225C200EE1FFD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		011ED5792912324800EE1FFD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		011ED57B291232E700EE1FFD /* RecoveryPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryPasswordView.swift; sourceTree = "<group>"; };
+		013C0F672919DF06005944E4 /* DetalleGastoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleGastoView.swift; sourceTree = "<group>"; };
+		013CF5452921631000118E77 /* Venegas-Tax-Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Venegas-Tax-Service-Info.plist"; sourceTree = SOURCE_ROOT; };
+		015E2F52291309A7004B4698 /* ListaCrearGastoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCrearGastoView.swift; sourceTree = "<group>"; };
+		01915A2E291DBF9C00A72480 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		01F4FD8A2911EFF100A7D1E2 /* Venegas Tax Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Venegas Tax Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F4FD8D2911EFF100A7D1E2 /* Venegas_Tax_ServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venegas_Tax_ServiceApp.swift; sourceTree = "<group>"; };
-		01F4FD8F2911EFF100A7D1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01F4FD912911EFF200A7D1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F4FD942911EFF200A7D1E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01F4FD9A2911EFF200A7D1E2 /* Venegas Tax ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Venegas Tax ServiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +82,10 @@
 		01F4FDA42911EFF200A7D1E2 /* Venegas Tax ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Venegas Tax ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F4FDA82911EFF200A7D1E2 /* Venegas_Tax_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venegas_Tax_ServiceUITests.swift; sourceTree = "<group>"; };
 		01F4FDAA2911EFF200A7D1E2 /* Venegas_Tax_ServiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venegas_Tax_ServiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01F4FDB72911F66A00A7D1E2 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		01FB92C2291DD7F600468A26 /* CategoriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaModel.swift; sourceTree = "<group>"; };
+		01FB92C6291DECDA00468A26 /* GastoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoModel.swift; sourceTree = "<group>"; };
+		01FB92C8291E04C400468A26 /* Persistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistencia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010530BD2920AC26001E3F69 /* Cloudinary in Frameworks */,
+				013CF5442921627700118E77 /* Camera-SwiftUI in Frameworks */,
+				013CF5412921498100118E77 /* AlertMessage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +116,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011A20272917137E00C46D76 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				011A202E291713C200C46D76 /* SubViews */,
+				011A20282917139600C46D76 /* Drawer.swift */,
+				011A202A291713A000C46D76 /* Home.swift */,
+				011A202C291713B200C46D76 /* MenuButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		011A202E291713C200C46D76 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				015E2F52291309A7004B4698 /* ListaCrearGastoView.swift */,
+				011A2036291714F500C46D76 /* Cart.swift */,
+				011A203A2917152F00C46D76 /* Favourites.swift */,
+				011A203C2917153D00C46D76 /* Orders.swift */,
+				011A204029171DFA00C46D76 /* ListaGastosView.swift */,
+				011A204229172D4200C46D76 /* NewGasto.swift */,
+				013C0F672919DF06005944E4 /* DetalleGastoView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		011A202F291713D800C46D76 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				011A2030291713EF00C46D76 /* MenuModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		01915A2D291DBF8900A72480 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				01915A2E291DBF9C00A72480 /* Configuration.swift */,
+				01FB92C2291DD7F600468A26 /* CategoriaModel.swift */,
+				01FB92C6291DECDA00468A26 /* GastoModel.swift */,
+				01FB92C8291E04C400468A26 /* Persistencia.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		01F4FD812911EFF100A7D1E2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +183,18 @@
 		01F4FD8C2911EFF100A7D1E2 /* Venegas Tax Service */ = {
 			isa = PBXGroup;
 			children = (
+				013CF5452921631000118E77 /* Venegas-Tax-Service-Info.plist */,
+				01915A2D291DBF8900A72480 /* models */,
+				011A202F291713D800C46D76 /* viewModel */,
+				011A20272917137E00C46D76 /* view */,
 				01F4FD8D2911EFF100A7D1E2 /* Venegas_Tax_ServiceApp.swift */,
-				01F4FD8F2911EFF100A7D1E2 /* ContentView.swift */,
 				01F4FD912911EFF200A7D1E2 /* Assets.xcassets */,
 				01F4FD932911EFF200A7D1E2 /* Preview Content */,
+				01F4FDB72911F66A00A7D1E2 /* SplashScreenView.swift */,
+				011ED577291225C200EE1FFD /* RegisterView.swift */,
+				011ED5792912324800EE1FFD /* LoginView.swift */,
+				011ED57B291232E700EE1FFD /* RecoveryPasswordView.swift */,
+				011A20322917142700C46D76 /* ContentView.swift */,
 			);
 			path = "Venegas Tax Service";
 			sourceTree = "<group>";
@@ -143,6 +240,11 @@
 			dependencies = (
 			);
 			name = "Venegas Tax Service";
+			packageProductDependencies = (
+				010530BC2920AC26001E3F69 /* Cloudinary */,
+				013CF5402921498100118E77 /* AlertMessage */,
+				013CF5432921627700118E77 /* Camera-SwiftUI */,
+			);
 			productName = "Venegas Tax Service";
 			productReference = 01F4FD8A2911EFF100A7D1E2 /* Venegas Tax Service.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +317,11 @@
 				Base,
 			);
 			mainGroup = 01F4FD812911EFF100A7D1E2;
+			packageReferences = (
+				010530BB2920AC26001E3F69 /* XCRemoteSwiftPackageReference "cloudinary_ios" */,
+				013CF53F2921498100118E77 /* XCRemoteSwiftPackageReference "AlertMessage" */,
+				013CF5422921627700118E77 /* XCRemoteSwiftPackageReference "Camera-SwiftUI" */,
+			);
 			productRefGroup = 01F4FD8B2911EFF100A7D1E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F4FD902911EFF100A7D1E2 /* ContentView.swift in Sources */,
+				011ED578291225C200EE1FFD /* RegisterView.swift in Sources */,
+				011A204329172D4200C46D76 /* NewGasto.swift in Sources */,
+				01FB92C7291DECDA00468A26 /* GastoModel.swift in Sources */,
+				011A203B2917152F00C46D76 /* Favourites.swift in Sources */,
+				011A20332917142700C46D76 /* ContentView.swift in Sources */,
+				01FB92C9291E04C400468A26 /* Persistencia.swift in Sources */,
 				01F4FD8E2911EFF100A7D1E2 /* Venegas_Tax_ServiceApp.swift in Sources */,
+				011A204129171DFA00C46D76 /* ListaGastosView.swift in Sources */,
+				011A2037291714F500C46D76 /* Cart.swift in Sources */,
+				01FB92C3291DD7F600468A26 /* CategoriaModel.swift in Sources */,
+				011A2031291713EF00C46D76 /* MenuModel.swift in Sources */,
+				011ED57A2912324800EE1FFD /* LoginView.swift in Sources */,
+				01F4FDB82911F66A00A7D1E2 /* SplashScreenView.swift in Sources */,
+				011A203D2917153D00C46D76 /* Orders.swift in Sources */,
+				011ED57C291232E700EE1FFD /* RecoveryPasswordView.swift in Sources */,
+				01915A2F291DBF9C00A72480 /* Configuration.swift in Sources */,
+				011A202D291713B200C46D76 /* MenuButton.swift in Sources */,
+				013C0F682919DF06005944E4 /* DetalleGastoView.swift in Sources */,
+				015E2F53291309A7004B4698 /* ListaCrearGastoView.swift in Sources */,
+				011A202B291713A000C46D76 /* Home.swift in Sources */,
+				011A20292917139600C46D76 /* Drawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +546,7 @@
 				DEVELOPMENT_TEAM = 3FDQJ6YC47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Venegas-Tax-Service-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +576,7 @@
 				DEVELOPMENT_TEAM = 3FDQJ6YC47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Venegas-Tax-Service-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +711,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		010530BB2920AC26001E3F69 /* XCRemoteSwiftPackageReference "cloudinary_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cloudinary/cloudinary_ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		013CF53F2921498100118E77 /* XCRemoteSwiftPackageReference "AlertMessage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielkmarks23/AlertMessage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		013CF5422921627700118E77 /* XCRemoteSwiftPackageReference "Camera-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rorodriguez116/Camera-SwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		010530BC2920AC26001E3F69 /* Cloudinary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010530BB2920AC26001E3F69 /* XCRemoteSwiftPackageReference "cloudinary_ios" */;
+			productName = Cloudinary;
+		};
+		013CF5402921498100118E77 /* AlertMessage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 013CF53F2921498100118E77 /* XCRemoteSwiftPackageReference "AlertMessage" */;
+			productName = AlertMessage;
+		};
+		013CF5432921627700118E77 /* Camera-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 013CF5422921627700118E77 /* XCRemoteSwiftPackageReference "Camera-SwiftUI" */;
+			productName = "Camera-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01F4FD822911EFF100A7D1E2 /* Project object */;
 }
